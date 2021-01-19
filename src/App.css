@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+}
+
+.corona{
+height: 300px;
+}
+body {
+  background-color: #ffffff;
+}
+
+.app__main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: 20px 40px;
+
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__graphTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.app__right .MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+ 
+}
+
+.app__graph {
+  flex-grow: 1;
+      /* height: 500px; */
+    /* background-color: #d0d6d6; */
+    /* padding: 1rem; */
+    border-radius: 20px;
+    filter: grayscale(0.5);
+    /* margin-top: 16px; */
+    box-shadow: 0px 6px 9px 1px rgb(104 104 104 / 50%);
+    filter: saturate(0.5);
+}
+
+@media (max-width: 990px) {
+  .app__main {
+    flex-direction: column;
+  }
+}
+
+
+
+.logo{
+  height: 70px;
+}
+@media (max-width: 990px) {
+  .logo{
+    height: 50px;
+  }
+}
+.headder_cont {
+  max-height: 200px;
+  background-image: linear-gradient( 109.5deg, rgb(243 242 247) 11.2%, rgb(255 255 255) 100.2% );
+  padding: 1rem;    padding: 1rem;
+  border-radius: 20px;
+  margin-top: 16px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+@media (max-width: 990px) {
+  .headder_cont {
+    max-height: 170px;
+  }
+}
+
+
+p{
+  font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+
+}
+@media (max-width: 990px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+.cont__text{
+  padding: 30px;
+
+
+  /* background-image: linear-gradient(90deg, #ff9a8b91 0%, #FF6A88 55%, #FF99AC 100%); */
+
+
+}
+
