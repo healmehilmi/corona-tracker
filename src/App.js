@@ -117,7 +117,7 @@ function App() {
 
                 <div className="cont__text">
                   <p>
-                <strong> This dashboard offers a snapshot of the crisis right now.</strong>  Click on a country name to get a more detailed geographic breakdown at the state, province, or county level. 
+                <strong> This dashboard offers a snapshot of the crisis right now.</strong>  Click on a country name to get a more detailed geographic breakdown at the state, province or county level. 
                   </p>
                 </div>
              
